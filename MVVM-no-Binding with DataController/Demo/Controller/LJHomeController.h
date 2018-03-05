@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LJHomeController.h
 //  MVVM-no-Binding with DataController
 //
 //  Created by manajay on 2018/3/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LJHomeController : UIViewController
 
 @end
-

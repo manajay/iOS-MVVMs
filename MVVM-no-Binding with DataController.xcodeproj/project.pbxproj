@@ -8,24 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		AE93236E204D1B38002BAA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93236D204D1B38002BAA00 /* AppDelegate.m */; };
-		AE932371204D1B38002BAA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE932370204D1B38002BAA00 /* ViewController.m */; };
-		AE932374204D1B38002BAA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE932372204D1B38002BAA00 /* Main.storyboard */; };
 		AE932376204D1B39002BAA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE932375204D1B39002BAA00 /* Assets.xcassets */; };
 		AE932379204D1B39002BAA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE932377204D1B39002BAA00 /* LaunchScreen.storyboard */; };
 		AE93237C204D1B39002BAA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93237B204D1B39002BAA00 /* main.m */; };
+		AE932389204D224D002BAA00 /* LJHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE932388204D224D002BAA00 /* LJHomeController.m */; };
+		AE93238C204D3162002BAA00 /* HomeAvatarList.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93238B204D3162002BAA00 /* HomeAvatarList.m */; };
+		AE932391204D327F002BAA00 /* LJDimensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = AE932390204D327F002BAA00 /* LJDimensionConst.m */; };
+		AE932399204D3B87002BAA00 /* LJHomeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE932398204D3B87002BAA00 /* LJHomeDataController.m */; };
+		AE93239C204D3E4A002BAA00 /* LJHomeAvatarListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93239B204D3E4A002BAA00 /* LJHomeAvatarListViewModel.m */; };
+		AE9323A0204D3EFD002BAA00 /* HomeAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93239F204D3EFD002BAA00 /* HomeAvatarModel.m */; };
+		AE9323A3204D4478002BAA00 /* LJHomeSubjectDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9323A2204D4478002BAA00 /* LJHomeSubjectDataController.m */; };
+		AE9323A6204D45B2002BAA00 /* LJHomeAvatarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9323A5204D45B2002BAA00 /* LJHomeAvatarViewModel.m */; };
+		AE9323AC204D5E16002BAA00 /* LJHomeSubjectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9323AB204D5E16002BAA00 /* LJHomeSubjectCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE932369204D1B38002BAA00 /* MVVM-no-Binding with DataController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-no-Binding with DataController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE93236C204D1B38002BAA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE93236D204D1B38002BAA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE93236F204D1B38002BAA00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE932370204D1B38002BAA00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE932373204D1B38002BAA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE932375204D1B39002BAA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE932378204D1B39002BAA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE93237A204D1B39002BAA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE93237B204D1B39002BAA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE932387204D224D002BAA00 /* LJHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJHomeController.h; sourceTree = "<group>"; };
+		AE932388204D224D002BAA00 /* LJHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHomeController.m; sourceTree = "<group>"; };
+		AE93238A204D3162002BAA00 /* HomeAvatarList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAvatarList.h; sourceTree = "<group>"; };
+		AE93238B204D3162002BAA00 /* HomeAvatarList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAvatarList.m; sourceTree = "<group>"; };
+		AE93238F204D327F002BAA00 /* LJDimensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJDimensionConst.h; sourceTree = "<group>"; };
+		AE932390204D327F002BAA00 /* LJDimensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDimensionConst.m; sourceTree = "<group>"; };
+		AE932393204D3350002BAA00 /* LJDimensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJDimensionConst.h; sourceTree = "<group>"; };
+		AE932397204D3B87002BAA00 /* LJHomeDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJHomeDataController.h; sourceTree = "<group>"; };
+		AE932398204D3B87002BAA00 /* LJHomeDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHomeDataController.m; sourceTree = "<group>"; };
+		AE93239A204D3E4A002BAA00 /* LJHomeAvatarListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJHomeAvatarListViewModel.h; sourceTree = "<group>"; };
+		AE93239B204D3E4A002BAA00 /* LJHomeAvatarListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHomeAvatarListViewModel.m; sourceTree = "<group>"; };
+		AE93239E204D3EFD002BAA00 /* HomeAvatarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAvatarModel.h; sourceTree = "<group>"; };
+		AE93239F204D3EFD002BAA00 /* HomeAvatarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAvatarModel.m; sourceTree = "<group>"; };
+		AE9323A1204D4478002BAA00 /* LJHomeSubjectDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJHomeSubjectDataController.h; sourceTree = "<group>"; };
+		AE9323A2204D4478002BAA00 /* LJHomeSubjectDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHomeSubjectDataController.m; sourceTree = "<group>"; };
+		AE9323A4204D45B2002BAA00 /* LJHomeAvatarViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJHomeAvatarViewModel.h; sourceTree = "<group>"; };
+		AE9323A5204D45B2002BAA00 /* LJHomeAvatarViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHomeAvatarViewModel.m; sourceTree = "<group>"; };
+		AE9323AA204D5E16002BAA00 /* LJHomeSubjectCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJHomeSubjectCollectionViewCell.h; sourceTree = "<group>"; };
+		AE9323AB204D5E16002BAA00 /* LJHomeSubjectCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJHomeSubjectCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +81,105 @@
 		AE93236B204D1B38002BAA00 /* MVVM-no-Binding with DataController */ = {
 			isa = PBXGroup;
 			children = (
+				AE932392204D331E002BAA00 /* Macro */,
+				AE93238E204D3247002BAA00 /* Const */,
+				AE93238D204D3235002BAA00 /* Util */,
+				AE932382204D1B4D002BAA00 /* Demo */,
 				AE93236C204D1B38002BAA00 /* AppDelegate.h */,
 				AE93236D204D1B38002BAA00 /* AppDelegate.m */,
-				AE93236F204D1B38002BAA00 /* ViewController.h */,
-				AE932370204D1B38002BAA00 /* ViewController.m */,
-				AE932372204D1B38002BAA00 /* Main.storyboard */,
 				AE932375204D1B39002BAA00 /* Assets.xcassets */,
 				AE932377204D1B39002BAA00 /* LaunchScreen.storyboard */,
 				AE93237A204D1B39002BAA00 /* Info.plist */,
 				AE93237B204D1B39002BAA00 /* main.m */,
 			);
 			path = "MVVM-no-Binding with DataController";
+			sourceTree = "<group>";
+		};
+		AE932382204D1B4D002BAA00 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AE93239D204D3EE7002BAA00 /* Model */,
+				AE932386204D1B69002BAA00 /* DataController */,
+				AE932385204D1B65002BAA00 /* ViewModel */,
+				AE932384204D1B64002BAA00 /* Controller */,
+				AE932383204D1B5B002BAA00 /* View */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		AE932383204D1B5B002BAA00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE93238A204D3162002BAA00 /* HomeAvatarList.h */,
+				AE93238B204D3162002BAA00 /* HomeAvatarList.m */,
+				AE9323AA204D5E16002BAA00 /* LJHomeSubjectCollectionViewCell.h */,
+				AE9323AB204D5E16002BAA00 /* LJHomeSubjectCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE932384204D1B64002BAA00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE932387204D224D002BAA00 /* LJHomeController.h */,
+				AE932388204D224D002BAA00 /* LJHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE932385204D1B65002BAA00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE93239A204D3E4A002BAA00 /* LJHomeAvatarListViewModel.h */,
+				AE93239B204D3E4A002BAA00 /* LJHomeAvatarListViewModel.m */,
+				AE9323A4204D45B2002BAA00 /* LJHomeAvatarViewModel.h */,
+				AE9323A5204D45B2002BAA00 /* LJHomeAvatarViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AE932386204D1B69002BAA00 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				AE932397204D3B87002BAA00 /* LJHomeDataController.h */,
+				AE932398204D3B87002BAA00 /* LJHomeDataController.m */,
+				AE9323A1204D4478002BAA00 /* LJHomeSubjectDataController.h */,
+				AE9323A2204D4478002BAA00 /* LJHomeSubjectDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		AE93238D204D3235002BAA00 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AE93238E204D3247002BAA00 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				AE93238F204D327F002BAA00 /* LJDimensionConst.h */,
+				AE932390204D327F002BAA00 /* LJDimensionConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		AE932392204D331E002BAA00 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				AE932393204D3350002BAA00 /* LJDimensionConst.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		AE93239D204D3EE7002BAA00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE93239E204D3EFD002BAA00 /* HomeAvatarModel.h */,
+				AE93239F204D3EFD002BAA00 /* HomeAvatarModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +241,6 @@
 			files = (
 				AE932379204D1B39002BAA00 /* LaunchScreen.storyboard in Resources */,
 				AE932376204D1B39002BAA00 /* Assets.xcassets in Resources */,
-				AE932374204D1B38002BAA00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +251,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE932371204D1B38002BAA00 /* ViewController.m in Sources */,
+				AE9323A3204D4478002BAA00 /* LJHomeSubjectDataController.m in Sources */,
+				AE932389204D224D002BAA00 /* LJHomeController.m in Sources */,
+				AE9323AC204D5E16002BAA00 /* LJHomeSubjectCollectionViewCell.m in Sources */,
 				AE93237C204D1B39002BAA00 /* main.m in Sources */,
+				AE93239C204D3E4A002BAA00 /* LJHomeAvatarListViewModel.m in Sources */,
+				AE932399204D3B87002BAA00 /* LJHomeDataController.m in Sources */,
 				AE93236E204D1B38002BAA00 /* AppDelegate.m in Sources */,
+				AE9323A6204D45B2002BAA00 /* LJHomeAvatarViewModel.m in Sources */,
+				AE9323A0204D3EFD002BAA00 /* HomeAvatarModel.m in Sources */,
+				AE932391204D327F002BAA00 /* LJDimensionConst.m in Sources */,
+				AE93238C204D3162002BAA00 /* HomeAvatarList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE932372204D1B38002BAA00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE932373204D1B38002BAA00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE932377204D1B39002BAA00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,7 +393,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MVVM-no-Binding with DataController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +402,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "www.manajay.com.MVVM-no-Binding-with-DataController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +411,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MVVM-no-Binding with DataController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +420,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "www.manajay.com.MVVM-no-Binding-with-DataController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
