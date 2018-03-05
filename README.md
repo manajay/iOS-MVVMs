@@ -1,7 +1,7 @@
 # iOS-MVVMs
 multi-mvvm-demo
 
-## [ YTK - MVVM](https://github.com/manajay/iOS-MVVMs)
+## [ YTK - MVVM](https://github.com/manajay/iOS-MVVMs/tree/ytk)
 猿题库 的一个MVVM变型 [猿题库 iOS 客户端架构设计](https://mp.weixin.qq.com/s?__biz=MjM5NTIyNTUyMQ==&mid=444322139&idx=1&sn=c7bef4d439f46ee539aa76d612023d43&scene=0#wechat_redirect)
 
 优点:
