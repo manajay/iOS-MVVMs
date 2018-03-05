@@ -14,3 +14,11 @@ multi-mvvm-demo
 缺点: 
 * 没有标准的MVVM架构简洁
 * UI复杂后,会出现过多的代码, 数据信息频繁传递
+
+### [CDD](https://github.com/manajay/iOS-MVVMs/tree/cdd)
+
+* [CDD](http://mrpeak.cn/blog/cdd/)
+
+* [ ] 待补充
+
+
